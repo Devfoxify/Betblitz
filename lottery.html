@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bizera - Online Gaming Website HTML Template</title>
+
+    <link rel="shortcut icon" href="favicons/images-fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/css-bootstrap.min.css">
+    <link rel="stylesheet" href="css/css-fontawesome.min.css">
+    <link rel="stylesheet" href="css/css-jquery-ui.css">
+    <link rel="stylesheet" href="css/plugin-nice-select.css">
+    <link rel="stylesheet" href="css/plugin-magnific-popup.css">
+    <link rel="stylesheet" href="css/plugin-slick.css">
+    <link rel="stylesheet" href="css/css-ara-font.css">
+    <link rel="stylesheet" href="css/plugin-animate.css">
+    <link rel="stylesheet" href="css/css-style.css">
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/images-fav.png" class="fav d-none d-lg-block d-xl-none" alt="fav">
+                            <img src="images/images-logo.png" class="logo d-block d-lg-none d-xl-block" alt="logo">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbar-content">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="games.html">Games</a>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-bs-toggle="dropdown" data-bs-auto-close="outside">Lottery</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="lottery.html">Lottery</a></li>
+                                        <li><a class="nav-link" href="lottery-details.html">Lottery Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="about-us.html">About Us</a></li>
+                                        <li class="dropend sub-navbar">
+                                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Promotions</a>
+                                            <ul class="dropdown-menu sub-menu shadow">
+                                                <li><a class="nav-link" href="promotions.html">Promotions</a></li>
+                                                <li><a class="nav-link" href="promotions-details.html">Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend sub-navbar">
+                                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Tournaments</a>
+                                            <ul class="dropdown-menu sub-menu shadow">
+                                                <li><a class="nav-link" href="tournaments.html">Tournaments</a></li>
+                                                <li><a class="nav-link" href="tournaments-result.html">Result</a></li>
+                                                <li><a class="nav-link" href="tournaments-details.html">Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="terms-conditions.html">Terms Conditions</a></li>
+                                        <li><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a class="nav-link" href="error.html">Error</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="blog.html">Blog</a></li>
+                                        <li><a class="nav-link" href="blog-2.html">Blog Second</a></li>
+                                        <li><a class="nav-link" href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center max-un">
+                                <button type="button" class="login" data-bs-toggle="modal" data-bs-target="#loginMod">
+                                    Sign In
+                                </button>
+                                <button type="button" class="cmn-btn reg" data-bs-toggle="modal" data-bs-target="#loginMod">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- Login Registration start -->
+    <div class="log-reg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="loginMod">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <ul class="nav log-reg-btn d-none justify-content-around">
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link" id="regArea-tab" data-bs-toggle="tab" data-bs-target="#regArea" type="button" role="tab" aria-controls="regArea" aria-selected="false">
+                                            SIGN UP
+                                        </button>
+                                    </li>
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link active" id="loginArea-tab" data-bs-toggle="tab" data-bs-target="#loginArea" type="button" role="tab" aria-controls="loginArea" aria-selected="true">
+                                            LOGIN
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="loginArea" role="tabpanel" aria-labelledby="loginArea-tab">
+                                        <div class="login-reg-content">
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="section-text text-center">
+                                                            <h3 class="title">Welcome Back</h3>
+                                                            <p>Not a member ? <a href="javascript:void(0)" class="reg-btn">Register</a></p>
+                                                        </div>
+                                                        <div class="input-area d-flex align-items-center">
+                                                            <img src="images/icon-email-icon.png" alt="icon">
+                                                            <input type="text" placeholder="Email">
+                                                        </div>
+                                                        <div class="input-area d-flex align-items-center">
+                                                            <img src="images/icon-security.png" alt="icon">
+                                                            <input type="text" placeholder="Password">
+                                                        </div>
+                                                        <div class="checkbox-item d-flex justify-content-between">
+                                                            <label class="checkbox-single d-flex align-items-center">
+                                                                <span class="content-area">
+                                                                    <span class="checkbox-area d-flex">
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </span>
+                                                                    <span class="item-title d-flex align-items-center">
+                                                                        <span>Remember me</span>
+                                                                    </span>
+                                                                </span>
+                                                            </label>
+                                                            <a href="javascript:void(0)">Forget Password</a>
+                                                        </div>
+                                                        <div class="btn-area text-center">
+                                                            <a href="javascript:void(0)" class="cmn-btn mt-4">Login
+                                                                <i class="icon-d-right-arrow-2"></i>
+                                                            </a>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="regArea" role="tabpanel" aria-labelledby="regArea-tab">
+                                        <div class="login-reg-content regMode">
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="section-text text-center">
+                                                            <h5 class="sub-title">Ready to get started?</h5>
+                                                            <h3 class="title">Welcome Bonus &euro;1,500 + 270 FS</h3>
+                                                            <p>Already have an member ? <a href="javascript:void(0)" class="log-btn">Login</a></p>
+                                                        </div>
+                                                        <div class="input-area d-flex align-items-center">
+                                                            <img src="images/icon-email-icon.png" alt="icon">
+                                                            <input type="text" placeholder="Email">
+                                                        </div>
+                                                        <div class="input-area d-flex align-items-center">
+                                                            <img src="images/icon-security.png" alt="icon">
+                                                            <input type="text" placeholder="Password">
+                                                        </div>
+                                                        <div class="sidebar-single-item">
+                                                            <label class="checkbox-single d-flex">
+                                                                <span class="content-area">
+                                                                    <span class="checkbox-area d-flex">
+                                                                        <input type="checkbox" checked>
+                                                                        <span class="checkmark"></span>
+                                                                    </span>
+                                                                    <span class="item-title d-flex align-items-center">
+                                                                        <span>I am at least 18 years of age and I have read,
+                                                                            accepted and agreed to the <u><a href="javascript:void(0)">Privacy Policy</a>,
+                                                                                Bonus T&amp;C, <a href="javascript:void(0)">Terms and Conditions</a></u>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </label>
+                                                            <label class="checkbox-single d-flex align-items-center">
+                                                                <span class="content-area">
+                                                                    <span class="checkbox-area d-flex">
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </span>
+                                                                    <span class="item-title d-flex align-items-center">
+                                                                        <span>I want to receive promotions by e-mail.</span>
+                                                                    </span>
+                                                                </span>
+                                                            </label>
+                                                            <div class="btn-area text-center">
+                                                                <a href="javascript:void(0)" class="cmn-btn mt-4">Get Start Now
+                                                                    <i class="icon-d-right-arrow-2"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Registration end -->
+
+    <!-- Banner Section start -->
+    <section class="banner-section inner-banner lottery">
+        <div class="overlay">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-10">
+                            <div class="main-content">
+                                <h1>Lottery</h1>
+                                <div class="breadcrumb-area">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb d-flex align-items-center">
+                                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Lottery</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section end -->
+
+    <!-- Weekly Lottery start -->
+    <section class="weekly-lottery">
+        <div class="overlay pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="lottery-content">
+                            <div class="section-text text-center">
+                                <h3 class="title">Weekly Lottery</h3>
+                                <h5 class="sub-title">Game #379</h5>
+                            </div>
+                            <div class="prize-pool d-flex align-items-center justify-content-between">
+                                <div class="left-area">
+                                    <h5 class="sub-title xlr">Prize Pool</h5>
+                                    <h4>19.41146725 BTC</h4>
+                                    <p>143577 Tickets in Game</p>
+                                </div>
+                                <div class="right-area text-center">
+                                    <h6 class="sub-title">Lottery Draw Starts In:</h6>
+                                    <div class="countdown d-flex align-items-center">
+                                        <h5>
+                                            <span class="days">00</span><span class="ref">D:</span>
+                                        </h5>
+                                        <h5>
+                                            <span class="hours">00</span><span class="ref">H:</span>
+                                        </h5>
+                                        <h5>
+                                            <span class="minutes">00</span><span class="ref">M:</span>
+                                        </h5>
+                                        <h5>
+                                            <span class="seconds">00</span><span class="ref">S</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-area text-center">
+                                <p>While you are still thinking, <span>6028 tickets</span> have already been so</p>
+                                <a href="lottery-details.html" class="cmn-btn">
+                                    buy  Ticket for just $0.1
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Weekly Lottery end -->
+
+    <!-- Latest winners start -->
+    <section class="latest-bets latest-winners">
+        <div class="overlay pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Latest Winners</h5>
+                            <h2 class="title">Latest Bets</h2>
+                            <p>More and more winners are added every time! To locate the most recent winner's information</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">User</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Purchased</th>
+                                        <th scope="col">Winners</th>
+                                        <th scope="col">My Tickets</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-1.png" alt="Image">
+                                                <span>Tom Bass</span>
+                                            </div>
+                                        </th>
+                                        <td>05/16/22</td>
+                                        <td>14,979</td>
+                                        <td class="game">8,022</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-2.png" alt="Image">
+                                                <span>Karl Day </span>
+                                            </div>
+                                        </th>
+                                        <td>05/25/22</td>
+                                        <td>13,854</td>
+                                        <td class="game">7,521</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-3.png" alt="Image">
+                                                <span>Jon Arnold</span>
+                                            </div>
+                                        </th>
+                                        <td>05/01/22</td>
+                                        <td>14,979</td>
+                                        <td class="game">8,569</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-4.png" alt="Image">
+                                                <span>Kim Clark</span>
+                                            </div>
+                                        </th>
+                                        <td>05/23/22</td>
+                                        <td>21,979</td>
+                                        <td class="game">8,574</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-5.png" alt="Image">
+                                                <span>Sergio Roy</span>
+                                            </div>
+                                        </th>
+                                        <td>05/14/22</td>
+                                        <td>14,979</td>
+                                        <td class="game">8,523</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-6.png" alt="Image">
+                                                <span>Wm Dixon</span>
+                                            </div>
+                                        </th>
+                                        <td>05/05/22</td>
+                                        <td>15,979</td>
+                                        <td class="game">8,457</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-7.png" alt="Image">
+                                                <span>Leo Berry</span>
+                                            </div>
+                                        </th>
+                                        <td>05/09/22</td>
+                                        <td>11,979</td>
+                                        <td class="game">8,358</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-8.png" alt="Image">
+                                                <span>Ross Ryan</span>
+                                            </div>
+                                        </th>
+                                        <td>05/14/22</td>
+                                        <td>12,979</td>
+                                        <td class="game">4,133</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="icon-box">
+                                                <img src="images/images-table-image-9.png" alt="Image">
+                                                <span>Alton Ray</span>
+                                            </div>
+                                        </th>
+                                        <td>05/21/22</td>
+                                        <td>21,979</td>
+                                        <td class="game">12,245</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest winners end -->
+
+    <!-- How it works start -->
+    <section class="how-works-second">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">How it works</h5>
+                            <h2 class="title">It&rsquo;s Really Easy!</h2>
+                            <p>It&rsquo;s easier than you think.Follow 3 simple easy steps</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cus-mar">
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="single-box text-center">
+                            <div class="thumb">
+                                <img src="images/icon-how-works-icon-4.png" alt="icon">
+                            </div>
+                            <div class="text-area">
+                                <h5>Buy tickets</h5>
+                                <p>Buy ticket with $0.1, and choose numbers for ticket.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="single-box mid text-center">
+                            <div class="thumb">
+                                <img src="images/icon-how-works-icon-5.png" alt="icon">
+                            </div>
+                            <div class="text-area">
+                                <h5>Wait For the Draw</h5>
+                                <p>Wait for the draw at 15:00 UTC+0 daily.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="single-box text-center">
+                            <div class="thumb">
+                                <img src="images/icon-how-works-icon-6.png" alt="icon">
+                            </div>
+                            <div class="text-area">
+                                <h5>Check For Prizes</h5>
+                                <p>Once the draw is over, come back to this page and check your prize.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How it works end -->
+
+    <!-- FAQs In start -->
+    <section class="faqs-section">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-header text-center">
+                            <h2 class="title">A Frequently Asked Questions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="accordionFaqs">
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        What is Bizera Lottery?
+                                    </button>
+                                </h6>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFaqs">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ut odio tempus malesuada ac bibendum diam. In sollicitudin, dui a rutrum semper, lectus dui ultrices nisl, vitae facilisis arcu sem in ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How does Bizera Lottery?
+                                    </button>
+                                </h6>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFaqs">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ut odio tempus malesuada ac bibendum diam. In sollicitudin, dui a rutrum semper, lectus dui ultrices nisl, vitae facilisis arcu sem in ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        When Lottery start?
+                                    </button>
+                                </h6>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaqs">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ut odio tempus malesuada ac bibendum diam. In sollicitudin, dui a rutrum semper, lectus dui ultrices nisl, vitae facilisis arcu sem in ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        How can participate in Lottery?
+                                    </button>
+                                </h6>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFaqs">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ut odio tempus malesuada ac bibendum diam. In sollicitudin, dui a rutrum semper, lectus dui ultrices nisl, vitae facilisis arcu sem in ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        What is the prize?
+                                    </button>
+                                </h6>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFaqs">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ut odio tempus malesuada ac bibendum diam. In sollicitudin, dui a rutrum semper, lectus dui ultrices nisl, vitae facilisis arcu sem in ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs In end -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="footer-form">
+                        <div class="section-area mb-30 text-center">
+                            <h4 class="title">To Get Exclusive Benefits</h4>
+                        </div>
+                        <form action="#">
+                            <div class="form-group input-area d-flex align-items-center">
+                                <input type="text" placeholder="Enter your email address">
+                                <button class="btn-area"><img src="images/icon-send-icon.png" alt="icon"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-area pt-120">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-top d-flex align-items-center justify-content-between">
+                            <a href="index.html">
+                                <img src="images/images-logo.png" class="logo" alt="logo">
+                            </a>
+                            <div class="footer-box">
+                                <ul class="footer-link d-flex align-items-center gap-4">
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="terms-conditions.html">Terms of Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-7 d-flex justify-content-center justify-content-lg-start order-lg-0 order-1">
+                            <div class="copyright text-center">
+                                <p>&copy; Bizera, 2023 | Design by <a href="https://themeforest.net/user/pixelaxis">pixelaxis.</a> All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                            <div class="social">
+                                <ul class="footer-link gap-2 d-flex align-items-center">
+                                    <li><a href="javascript:void(0)"><i class="fb fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="ins fab fa-instagram"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="tw fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="in fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!--==================================================================-->
+    <script src="js/js-jquery.min.js"></script>
+    <script src="js/js-jquery-ui.js"></script>
+    <script src="js/js-bootstrap.min.js"></script>
+    <script src="js/js-fontawesome.js"></script>
+    <script src="js/plugin-slick.js"></script>
+    <script src="js/plugin-jquery.nice-select.min.js"></script>
+    <script src="js/plugin-counter.js"></script>
+    <script src="js/plugin-jquery.downCount.js"></script>
+    <script src="js/plugin-waypoint.min.js"></script>
+    <script src="js/plugin-jquery.magnific-popup.min.js"></script>
+    <script src="js/plugin-wow.min.js"></script>
+    <script src="js/plugin-plugin.js"></script>
+    <script src="js/js-main.js"></script>
+</body>
+
+</html>
